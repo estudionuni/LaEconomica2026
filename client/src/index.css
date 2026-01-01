@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-roboto-slab: "Roboto Slab", "roboto";
+  --font-hepta-slab: "Hepta Slab", "roboto";
+  --font-outfit: "Outfit", sans-serif;
+  --breakpoint-sm: 64rem;
+  --breakpoint-celu: 40rem;
+  --breakpoint-celuvert: 20rem;
+  --color-principal: #e32323;
+  --color-blanco: #ffffff;
+  --color-aqui: #ff2020;
+  --color-ventanas: #ffd2d2;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.218);
+  color: white;
+}
+
+/* 🎯 Tu animación personalizada aquí */
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 20px));
+  }
+}
+
+/* Clase para usarla en el HTML */
+.animate-infinite-scroll {
+  animation: infinite-scroll 50s linear infinite;
+}
+
+.scrollbar-none {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
