@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="flex flex-col h-full">
         <Navbar />
-        <div className="h-screen bg-orange-400" />
+        <div className="h-screen bg-green-500" />
       </div>
     </>
   );
