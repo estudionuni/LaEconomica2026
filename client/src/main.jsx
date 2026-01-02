@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { AppContextProvider } from "./context/AppContext";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/LaEconomica2026">
     <AppContextProvider>
       <App />
     </AppContextProvider>
