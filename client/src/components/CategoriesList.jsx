@@ -15,8 +15,8 @@ const CategoriesList = () => {
               to={`/categoria/${item.path}`}
               className="flex flex-col size-fit"
             >
-              <Icon className="size-5 bg-red-500 text-white p-2 mx-auto" />
-              <p className="w-fit mx-auto">{item.categoria}</p>
+              <Icon className="size-10 bg-red-500 text-white p-2 mx-auto" />
+              <p className="w-fit mx-auto text-center">{item.categoria}</p>
             </Link>
           );
         })}
