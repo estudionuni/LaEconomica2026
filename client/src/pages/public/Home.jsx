@@ -1,13 +1,22 @@
+import { assets } from "../../assets/assets";
 import CategoriesList from "../../components/CategoriesList";
-import Navbar from "../../components/Navbar";
+import SearchBar from "../../components/SearchBar";
 
 const Home = () => {
   return (
     <>
       <div className="flex flex-col h-full">
-        <Navbar />
+        {/*Barra de navegación */}
+        <SearchBar />
+        {/*Banner principal */}
+        <img
+          src={assets.banner_desktop}
+          alt="banner"
+          className="w-full aspect-25/6.8 object-cover"
+        />
+        {/*Lista de categorías */}
         <CategoriesList />
-        <div className="h-screen bg-green-500" />
+        <div className="h-screen bg-white" />
       </div>
     </>
   );

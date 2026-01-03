@@ -5,6 +5,7 @@ const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
   const [isAuth, setIsAuth] = useState(true);
+  const [searchInput, setSearchInput] = useState("");
   const navigate = useNavigate();
 
   return (
@@ -12,6 +13,8 @@ export const AppContextProvider = ({ children }) => {
       value={{
         isAuth,
         setIsAuth,
+        searchInput,
+        setSearchInput,
         navigate,
       }}
     >

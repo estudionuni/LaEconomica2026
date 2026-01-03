@@ -6,6 +6,8 @@ import la_gran_compra_yogur_firme_frutilla_120_g from "./imagenes/productos/la_g
 
 // imports
 import logo from "./imagenes/logo.png";
+import banner from "./imagenes/banner.png";
+import banner_desktop from "./imagenes/banner_desktop.png";
 import add_address_imagen from "./imagenes/add_address_form.jpg";
 
 import carrusel1 from "./imagenes/carruselSuperior/1.png";
@@ -42,6 +44,8 @@ import {
 // 🔹 listas
 export const assets = {
   logo,
+  banner,
+  banner_desktop,
   add_address_imagen,
 };
 
