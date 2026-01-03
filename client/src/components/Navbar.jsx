@@ -21,9 +21,10 @@ const Navbar = () => {
           >
             Buscar Productos...
           </Link>
-          <div className="w-fit gap-2 hidden sm:flex items-center">
-            <CircleUser className="text-white stroke-[1.5px] shrink-0 size-7" />
-            <p className="text-white size-6 w-fit">Registrate/Ingresá</p>
+          <div className="w-fit gap-2 hidden sm:flex items-center select-none cursor-pointer bg-red-500 rounded-md py-2 px-4">
+            <p className="text-white size-6 w-fit whitespace-nowrap">
+              Registrate/Ingresá
+            </p>
           </div>
         </section>
       </div>
