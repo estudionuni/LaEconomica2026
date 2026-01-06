@@ -13,7 +13,7 @@ const CategoriesList = () => {
             <Link
               key={item.path}
               to={`/categoria/${item.path}`}
-              className="flex flex-col size-fit p-2 rounded-md border border-red-400 bg-red-50"
+              className="flex flex-col size-fit p-2 rounded-md border border-red-400 bg-red-50 select-none"
             >
               <Icon className="size-10 bg-red-600 text-white p-2 mx-auto rounded-full shrink-0 stroke-[1.5px]" />
               <p className="w-fit mx-auto text-center whitespace-nowrap">

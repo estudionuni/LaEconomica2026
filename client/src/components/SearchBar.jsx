@@ -18,7 +18,7 @@ const SearchBar = () => {
             <img
               src={assets.logo}
               alt="La Económica"
-              className="flex h-13 w-fit"
+              className="flex h-13 w-fit object-scale-down pointer-events-none"
             />
           </Link>
           <ShoppingCart className="size-10 p-2 rounded-lg active:bg-red-500 shrink-0 stroke-[1.5px] text-white md:hidden" />
@@ -42,7 +42,7 @@ const SearchBar = () => {
               Registrate/Ingresá
             </p>
           </div>
-          <ShoppingCart className="size-10 p-2 rounded-lg active:bg-red-500 shrink-0 stroke-[1.5px] text-white hidden md:block" />
+          <ShoppingCart className="size-10 p-2 rounded-lg bg-red-500 cursor-pointer shrink-0 stroke-[1.5px] text-white hidden md:block" />
         </section>
       </div>
     </>

@@ -12,8 +12,7 @@ const Home = () => {
         <img
           src={assets.banner_desktop}
           alt="banner"
-          draggable={false}
-          className="w-full aspect-25/6.8 object-cover select-none"
+          className="w-full aspect-25/6.8 object-cover select-none pointer-events-none"
         />
         {/*Lista de categorías */}
         <CategoriesList />

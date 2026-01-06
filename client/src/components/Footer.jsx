@@ -7,7 +7,11 @@ const Footer = () => {
     <div className="px-6 sm:px-30 bg-red-600 select-none">
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-white/30 text-gray-500">
         <div>
-          <img className="w-50" src={assets.logo} alt="La Económica" />
+          <img
+            className="w-50 pointer-events-none"
+            src={assets.logo}
+            alt="La Económica"
+          />
           <p className="max-w-102.5 mt-6 text-white">
             Proveemos mas de 60 marcas para todos nuestros colegas comerciantes
             a lo largo de todo zona sur
