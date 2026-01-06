@@ -124,9 +124,9 @@ export const categoriasList = [
     imagen: Trash,
   },
   {
-    categoria: "Cigarrillos",
-    path: "cigarrillos",
-    imagen: Cigarette,
+    categoria: "Congelados",
+    path: "congelados",
+    imagen: Snowflake,
   },
   {
     categoria: "Bebidas Alcohólicas",
@@ -134,14 +134,9 @@ export const categoriasList = [
     imagen: Wine,
   },
   {
-    categoria: "Congelados",
-    path: "congelados",
-    imagen: Snowflake,
-  },
-  {
-    categoria: "Reventa",
-    path: "reventa",
-    imagen: Truck,
+    categoria: "Cigarrillos",
+    path: "cigarrillos",
+    imagen: Cigarette,
   },
 ];
 
