@@ -8,7 +8,7 @@ const SearchBar = () => {
   const { searchInput, setSearchInput, setShowSidebar } = useAppContext();
   return (
     <>
-      <div className="flex flex-col md:flex-row sticky top-0 inset-0 h-fit px-4 py-2 sm:gap-4 bg-red-600 shadow-sm shadow-red-600/40">
+      <div className="flex flex-col md:flex-row sticky top-0 inset-0 h-fit px-4 py-2 md:gap-4 bg-red-600 shadow-sm shadow-red-600/40">
         <div className="flex gap-2 px-1 md:px-0 items-center justify-between pb-2 sm:pb-0">
           <Menu
             className="size-10 p-2 rounded-lg shrink-0 stroke-2 text-white block md:hidden active:bg-red-500"
@@ -18,7 +18,7 @@ const SearchBar = () => {
             <img
               src={assets.logo}
               alt="La Económica"
-              className="flex h-13 object-contain"
+              className="flex h-13 w-fit"
             />
           </Link>
           <ShoppingCart className="size-10 p-2 rounded-lg active:bg-red-500 shrink-0 stroke-[1.5px] text-white md:hidden" />
