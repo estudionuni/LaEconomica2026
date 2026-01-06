@@ -8,7 +8,7 @@ const SearchBar = () => {
   const { searchInput, setSearchInput, setShowSidebar } = useAppContext();
   return (
     <>
-      <div className="flex flex-col md:flex-row sticky top-0 inset-0 h-fit px-4 py-2 md:gap-4 bg-red-600 shadow-sm shadow-red-600/40">
+      <div className="flex flex-col md:flex-row sticky top-0 inset-0 h-fit md:h-16 px-4 py-2 md:gap-4 bg-red-600 shadow-sm shadow-red-600/40">
         <div className="flex gap-2 px-1 md:px-0 items-center justify-between pb-2 sm:pb-0">
           <Menu
             className="size-10 p-2 rounded-lg shrink-0 stroke-2 text-white block md:hidden active:bg-red-500"

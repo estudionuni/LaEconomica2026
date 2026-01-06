@@ -1,5 +1,6 @@
 import { assets } from "../../assets/assets";
 import CategoriesList from "../../components/CategoriesList";
+import DesktopNavbar from "../../components/DesktopNavbar";
 import SearchBar from "../../components/SearchBar";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="flex flex-col h-full">
         {/*Barra de navegación */}
         <SearchBar />
+        <DesktopNavbar />
         {/*Banner principal */}
         <img
           src={assets.banner_desktop}
