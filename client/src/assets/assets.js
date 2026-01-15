@@ -6,7 +6,7 @@ import la_gran_compra_yogur_firme_frutilla_120_g from "./imagenes/productos/la_g
 
 // imports
 import logo from "./imagenes/logo.png";
-import banner from "./imagenes/banner.png";
+import banner from "./imagenes/banner.webp";
 import banner_desktop from "./imagenes/banner_desktop.png";
 import add_address_imagen from "./imagenes/add_address_form.jpg";
 
@@ -206,7 +206,8 @@ export const productosList = [
     precioPorBulto: 2450.85,
     createdAt: "2025-03-25T07:17:46.0102",
     updatedAt: "2025-03-25T07:18:13.1032",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "yogur-firme-frutilla-gran-compra-120-gr",
@@ -218,11 +219,12 @@ export const productosList = [
     precio: 533.73,
     oferta: 20,
     imagen: la_gran_compra_yogur_firme_frutilla_120_g,
-    unidadesPorBulto: 5,
+    unidadesPorBulto: 50,
     precioPorBulto: 499.9,
     createdAt: "2025-03-25T07:30:46.0102",
     updatedAt: "2025-03-25T07:36:13.1032",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "yogur-firme-vainilla-gran-compra-120-gr",
@@ -238,7 +240,8 @@ export const productosList = [
     precioPorBulto: 499.9,
     createdAt: "2025-03-25T07:45:46.0102",
     updatedAt: "2025-03-25T07:55:13.1032",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "yogur-con-cereales-gran-compra",
@@ -254,7 +257,8 @@ export const productosList = [
     precioPorBulto: 950.9,
     createdAt: "2025-03-25T07:55:46.0102",
     updatedAt: "2025-03-25T07:59:13.1032",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "aceite-girasol-canuelas-1-5l",
@@ -271,7 +275,8 @@ export const productosList = [
     precioPorBulto: 1300.5,
     createdAt: "2025-06-09T10:00:00.000Z",
     updatedAt: "2025-06-09T10:00:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "arroz-largo-fino-marolio-1kg",
@@ -288,7 +293,8 @@ export const productosList = [
     precioPorBulto: 1390.0,
     createdAt: "2025-06-09T10:05:00.000Z",
     updatedAt: "2025-06-09T10:05:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "azucar-ledesma-clasica-1kg",
@@ -305,7 +311,8 @@ export const productosList = [
     precioPorBulto: 1000.0,
     createdAt: "2025-06-09T10:10:00.000Z",
     updatedAt: "2025-06-09T10:10:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "jabón-dove-90g",
@@ -322,7 +329,8 @@ export const productosList = [
     precioPorBulto: 950.0,
     createdAt: "2025-06-09T10:15:00.000Z",
     updatedAt: "2025-06-09T10:15:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "acondicionador-sedal-crema-balance-340-cc",
@@ -339,7 +347,8 @@ export const productosList = [
     precioPorBulto: 800.0,
     createdAt: "2025-06-09T10:20:00.000Z",
     updatedAt: "2025-06-09T10:20:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
   {
     path: "desodorante-antitranspirante-nivea-men-black-y-white-fresh-sin-siliconas-150-ml",
@@ -357,7 +366,8 @@ export const productosList = [
     precioPorBulto: 1100.0,
     createdAt: "2025-06-09T10:25:00.000Z",
     updatedAt: "2025-06-09T10:25:00.000Z",
-    inStock: true,
+    stockInd: 82,
+    stockBul: 20,
   },
 ];
 

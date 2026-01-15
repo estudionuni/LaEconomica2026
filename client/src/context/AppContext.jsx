@@ -8,10 +8,24 @@ export const AppContextProvider = ({ children }) => {
   const [showSidebar, setShowSidebar] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const navigate = useNavigate();
+  const sucursales = [
+    {
+      sucursal: "Luis Guillon",
+      direccion: "Av. Luciano Valette 1952",
+    },
+    {
+      sucursal: "Cañuelas",
+      direccion: "Ruta 205 KM 66,5",
+    },
+  ];
+  const [sucursalElegida, setSucursalElegida] = useState(sucursales[0]);
 
   return (
     <AppContext.Provider
       value={{
+        sucursales,
+        sucursalElegida,
+        setSucursalElegida,
         isAuth,
         setIsAuth,
         showSidebar,
