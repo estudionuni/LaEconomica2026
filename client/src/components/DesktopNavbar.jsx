@@ -83,7 +83,7 @@ const DesktopNavbar = () => {
       />
       <div
         hidden={!showSucursales}
-        className="flex flex-col absolute top-13.5 right-8 w-fit p-1 bg-neutral-50/90 border border-red-600 rounded"
+        className="flex flex-col absolute top-13.5 right-8 w-fit p-1 bg-white border border-red-600 rounded"
       >
         {sucursales.map((item) => (
           <p
